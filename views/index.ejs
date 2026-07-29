@@ -1,0 +1,195 @@
+<%- include("partials/header.ejs") %>
+
+<main class="dashboard">
+
+    <!-- Hero -->
+    <section class="dashboard-intro">
+        <p class="eyebrow">YOUR WORLD</p>
+
+        <h1>Where have you been?</h1>
+
+        <p class="subtitle">
+            Select the countries and regions you've visited
+            and watch your map come to life.
+        </p>
+    </section>
+
+
+    <!-- World Map -->
+    <section class="map-section">
+
+        <div class="map-header">
+            <div>
+                <p class="section-label">YOUR MAP</p>
+                <h2>World</h2>
+            </div>
+
+            <div class="map-count">
+                <span class="count-number">12</span>
+                <span class="count-label">countries</span>
+            </div>
+        </div>
+
+
+        <div class="map-container" id="map-container">
+
+            <!--
+                world.svg will be loaded here using JS.
+
+                IMPORTANT:
+                Individual countries inside world.svg should have
+                IDs such as:
+
+                <path id="IN">
+                <path id="US">
+                <path id="FR">
+
+                This lets you highlight them later using the ISO code.
+            -->
+
+            <div id="world-map"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Country Selection -->
+    <section class="places-section">
+
+        <div class="places-heading">
+            <p class="section-label">PLACES</p>
+            <h2>Countries & regions</h2>
+
+            <p>
+                Search or browse the world and mark the places
+                you've visited.
+            </p>
+        </div>
+
+
+        <!-- Search -->
+        <div class="country-search">
+
+            <span class="search-icon">⌕</span>
+
+            <input
+                type="text"
+                id="country-search"
+                placeholder="Search countries..."
+                autocomplete="off"
+            >
+
+        </div>
+
+        <!-- Country List -->
+        <div class="country-list" id="country-list">
+
+
+            <!-- INDIA -->
+            <div class="country">
+
+                <div class="country-row">
+
+                    <label class="country-main">
+
+                        <input
+                            type="checkbox"
+                            class="country-checkbox"
+                            value="IN"
+                        >
+
+                        <span class="custom-checkbox"></span>
+
+                        <span class="country-flag">🇮🇳</span>
+
+                        <span class="country-name">
+                            India
+                        </span>
+
+                    </label>
+
+                    <button
+                        class="expand-country"
+                        type="button"
+                        aria-label="Show Indian states"
+                    >
+                        +
+                    </button>
+
+                </div>
+
+
+                <!-- States -->
+                <div class="state-list">
+
+                    <label class="state-row">
+
+                        <input
+                            type="checkbox"
+                            class="state-checkbox"
+                            value="IN-MH"
+                        >
+
+                        <span class="custom-checkbox"></span>
+
+                        <span>Maharashtra</span>
+
+                    </label>
+
+
+                    <label class="state-row">
+
+                        <input
+                            type="checkbox"
+                            class="state-checkbox"
+                            value="IN-GA"
+                        >
+
+                        <span class="custom-checkbox"></span>
+
+                        <span>Goa</span>
+
+                    </label>
+
+
+                    <label class="state-row">
+
+                        <input
+                            type="checkbox"
+                            class="state-checkbox"
+                            value="IN-KA"
+                        >
+
+                        <span class="custom-checkbox"></span>
+
+                        <span>Karnataka</span>
+
+                    </label>
+
+
+                    <label class="state-row">
+
+                        <input
+                            type="checkbox"
+                            class="state-checkbox"
+                            value="IN-KL"
+                        >
+
+                        <span class="custom-checkbox"></span>
+
+                        <span>Kerala</span>
+
+                    </label>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<%- include("partials/footer.ejs") %>

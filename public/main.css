@@ -1,0 +1,452 @@
+/* ---------- Base ---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #f7f2e7;
+    --surface: #eee5d2;
+    --text: #343434;
+    --muted: #8a8375;
+    --primary: #4169e1;
+    --primary-light: #dfe6f8;
+    --border: #ded5c3;
+    --visited: #63a65f;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--background);
+    color: var(--text);
+    font-family: "DM Mono", monospace;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+input {
+    font-family: inherit;
+}
+
+
+/* ---------- Header ---------- */
+
+.header {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    color: var(--muted);
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+
+/* ---------- Main ---------- */
+
+.dashboard {
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 40px 100px;
+}
+
+
+/* ---------- Intro ---------- */
+
+.dashboard-intro {
+    margin-bottom: 70px;
+}
+
+.eyebrow,
+.section-label {
+    margin: 0 0 12px;
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.dashboard-intro h1 {
+    margin: 0 0 18px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.subtitle {
+    max-width: 650px;
+    margin: 0;
+
+    color: var(--muted);
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* ---------- Map ---------- */
+
+.map-section {
+    margin-bottom: 90px;
+}
+
+.map-header {
+    margin-bottom: 25px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.map-header h2,
+.places-heading h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.map-count {
+    color: var(--muted);
+}
+
+.count-number {
+    color: var(--primary);
+    font-size: 22px;
+}
+
+.count-label {
+    font-size: 14px;
+}
+
+
+/* Map itself */
+
+.map-container {
+    width: 100%;
+    min-height: 480px;
+    padding: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--surface);
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+#world-map {
+    width: 100%;
+}
+
+#world-map svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* SVG countries */
+
+#world-map path {
+    fill: #c8c0b0;
+    stroke: var(--background);
+    stroke-width: 0.5;
+
+    cursor: pointer;
+    transition: fill 0.15s;
+}
+
+#world-map path:hover {
+    fill: var(--primary);
+}
+
+#world-map path.visited {
+    fill: var(--visited);
+}
+
+
+/* ---------- Places ---------- */
+
+.places-section {
+    max-width: 850px;
+}
+
+.places-heading {
+    margin-bottom: 30px;
+}
+
+.places-heading p:last-child {
+    margin: 12px 0 0;
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+
+/* ---------- Search ---------- */
+
+.country-search {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 0 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    background: var(--surface);
+    border-radius: 10px;
+}
+
+.search-icon {
+    color: var(--muted);
+    font-size: 22px;
+}
+
+.country-search input {
+    width: 100%;
+    padding: 18px 0;
+
+    background: transparent;
+    border: none;
+    outline: none;
+
+    color: var(--text);
+    font-size: 15px;
+}
+
+.country-search input::placeholder {
+    color: var(--muted);
+}
+
+
+/* ---------- Country list ---------- */
+
+.country-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.country {
+    border-bottom: 1px solid var(--border);
+}
+
+.country-row {
+    min-height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.country-main {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    cursor: pointer;
+}
+
+.country-flag {
+    font-size: 21px;
+}
+
+.country-name {
+    font-size: 16px;
+}
+
+
+/* Hide default checkbox */
+
+.country-checkbox,
+.state-checkbox {
+    display: none;
+}
+
+
+/* Custom checkbox */
+
+.custom-checkbox {
+    width: 19px;
+    height: 19px;
+
+    flex-shrink: 0;
+
+    border: 2px solid var(--muted);
+    border-radius: 4px;
+}
+
+.country-checkbox:checked + .custom-checkbox,
+.state-checkbox:checked + .custom-checkbox {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.country-checkbox:checked + .custom-checkbox::after,
+.state-checkbox:checked + .custom-checkbox::after {
+    content: "✓";
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-size: 13px;
+}
+
+
+/* ---------- Expand button ---------- */
+
+.expand-country {
+    width: 40px;
+    height: 40px;
+
+    background: transparent;
+    border: none;
+
+    color: var(--muted);
+    font-size: 22px;
+
+    cursor: pointer;
+}
+
+.expand-country:hover {
+    color: var(--primary);
+}
+
+
+/* ---------- States ---------- */
+
+.state-list {
+    display: none;
+
+    padding: 0 0 18px 47px;
+}
+
+.country.open .state-list {
+    display: block;
+}
+
+.state-row {
+    padding: 10px 0;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    color: var(--muted);
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.state-row:hover {
+    color: var(--text);
+}
+
+
+/* ---------- Footer ---------- */
+
+.footer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 35px 40px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid var(--border);
+
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 12px;
+}
+
+.footer a:hover {
+    color: var(--primary);
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 700px) {
+
+    .header {
+        padding: 25px 20px;
+    }
+
+    .nav {
+        gap: 18px;
+    }
+
+    .dashboard {
+        padding: 40px 20px 70px;
+    }
+
+    .dashboard-intro {
+        margin-bottom: 50px;
+    }
+
+    .dashboard-intro h1 {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 15px;
+    }
+
+    .map-section {
+        margin-bottom: 65px;
+    }
+
+    .map-container {
+        min-height: 280px;
+        padding: 10px;
+    }
+
+    .map-header h2,
+    .places-heading h2 {
+        font-size: 24px;
+    }
+
+    .footer {
+        padding: 30px 20px;
+
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
