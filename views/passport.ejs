@@ -1,0 +1,159 @@
+<%- include("partials/header.ejs") %>
+
+<main class="passport-page">
+  <!-- Profile -->
+
+  <section class="passport-header">
+    <div>
+      <p class="eyebrow">YOUR PASSPORT</p>
+
+      <h1><%= user.username %></h1>
+
+      <p class="passport-email">/*<%= user.email %></p>
+    </div>
+
+    <a href="/logout" class="logout-button"> Log out </a>
+  </section>
+
+  <section class="passport-header">
+    <div class="passport-user">
+      <img
+        src="<%= user.profile_pic %>"
+        alt="<%= user.username %>"
+        class="profile-picture"
+      />
+
+      <div>
+        <p class="eyebrow">YOUR PASSPORT</p>
+
+        <h1><%= user.username %></h1>
+
+        <p class="passport-email"><%= user.email %></p>
+      </div>
+    </div>
+
+    <a href="/logout" class="logout-button"> Log out </a>
+  </section>
+  <!-- Main Progress -->
+
+  <section class="passport-progress">
+    <div class="progress-number">
+      <span class="visited-number"> <%= stats.countriesVisited %> </span>
+
+      <span class="total-number"> / 193 </span>
+    </div>
+
+    <p>UN member states visited</p>
+
+    <div class="progress-bar">
+      <div
+        class="progress-fill"
+        style="width: <%= stats.unPercentage %>%"
+      ></div>
+    </div>
+
+    <span class="progress-percentage">
+      <%= stats.unPercentage %>% of the world
+    </span>
+  </section>
+
+  <!-- Main Stats -->
+
+  <section class="stats-section">
+    <div class="stats-heading">
+      <p class="section-label">YOUR NUMBERS</p>
+
+      <h2>Travel statistics</h2>
+    </div>
+
+    <div class="stats-grid">
+      <!-- Countries -->
+
+      <div class="stat-card">
+        <span class="stat-label"> Countries </span>
+
+        <strong class="stat-value"> <%= stats.countriesVisited %> </strong>
+
+        <span class="stat-detail"> of 193 UN states </span>
+      </div>
+
+      <!-- Continents -->
+
+      <div class="stat-card">
+        <span class="stat-label"> Continents </span>
+
+        <strong class="stat-value"> <%= stats.continentsVisited %> </strong>
+
+        <span class="stat-detail"> of 7 continents </span>
+      </div>
+
+      <!-- UN Percentage -->
+
+      <div class="stat-card">
+        <span class="stat-label"> World explored </span>
+
+        <strong class="stat-value"> <%= stats.unPercentage %>% </strong>
+
+        <span class="stat-detail"> by UN member states </span>
+      </div>
+
+      <!-- Population -->
+
+      <div class="stat-card">
+        <span class="stat-label"> Population covered </span>
+
+        <strong class="stat-value"> <%= stats.populationCovered %> </strong>
+
+        <span class="stat-detail"> people </span>
+      </div>
+
+      <!-- Land Area -->
+
+      <div class="stat-card">
+        <span class="stat-label"> Land area </span>
+
+        <strong class="stat-value"> <%= stats.landArea %> </strong>
+
+        <span class="stat-detail"> km² visited </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Geographic Extremes -->
+
+  <section class="extremes-section">
+    <div class="stats-heading">
+      <p class="section-label">EXTREMES</p>
+
+      <h2>Your world</h2>
+    </div>
+
+    <div class="extremes-list">
+      <div class="extreme-row">
+        <span> Largest country visited </span>
+
+        <strong> <%= stats.largestCountry %> </strong>
+      </div>
+
+      <div class="extreme-row">
+        <span> Smallest country visited </span>
+
+        <strong> <%= stats.smallestCountry %> </strong>
+      </div>
+
+      <div class="extreme-row">
+        <span> Northernmost country </span>
+
+        <strong> <%= stats.northernmostCountry %> </strong>
+      </div>
+
+      <div class="extreme-row">
+        <span> Southernmost country </span>
+
+        <strong> <%= stats.southernmostCountry %> </strong>
+      </div>
+    </div>
+  </section>
+</main>
+
+<%- include("partials/footer.ejs") %>
