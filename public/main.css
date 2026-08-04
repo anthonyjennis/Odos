@@ -12,7 +12,7 @@
     --primary: #4169e1;
     --primary-light: #dfe6f8;
     --border: #ded5c3;
-    --visited: #63a65f;
+    --visited: #4169e1;
 }
 
 html {
@@ -114,7 +114,7 @@ input {
 /* ---------- Map ---------- */
 
 .map-section {
-    margin-bottom: 90px;
+    margin-bottom: 25px;
 }
 
 .map-header {
@@ -151,6 +151,7 @@ input {
 .map-wrapper {
     width: 100%;
     min-height: 480px;
+    margin-bottom: 70px;
     padding: 25px;
 
     display: flex;
@@ -172,29 +173,20 @@ input {
 
 /* SVG countries */
 
-#world-map .map-country {
-    fill: #c8c0b0;
-    stroke: var(--background);
-    stroke-width: 0.5;
+#world-map path {
+    fill: #000;
+    stroke: none;
 
     cursor: pointer;
     transition: fill 0.15s;
 }
 
-#world-map .map-country:hover {
-    fill: var(--primary);
-}
-
-#world-map .map-country.visited {
+#world-map path.visited {
     fill: var(--visited);
 }
 
 
 /* ---------- Places ---------- */
-
-.places-section {
-    max-width: 850px;
-}
 
 .places-heading {
     margin-bottom: 30px;
@@ -212,7 +204,7 @@ input {
 .country-search {
     width: 100%;
     margin-bottom: 25px;
-    padding: 0 20px;
+    padding: 8px 8px 8px 20px;
 
     display: flex;
     align-items: center;
@@ -243,131 +235,21 @@ input {
     color: var(--muted);
 }
 
+.add-button {
+    padding: 14px 26px;
 
-/* ---------- Country list ---------- */
-
-.country-list {
-    display: flex;
-    flex-direction: column;
-}
-
-.country {
-    border-bottom: 1px solid var(--border);
-}
-
-.country-row {
-    min-height: 65px;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.country-main {
-    flex: 1;
-
-    display: flex;
-    align-items: center;
-    gap: 14px;
-
-    cursor: pointer;
-}
-
-.country-flag {
-    font-size: 21px;
-}
-
-.country-name {
-    font-size: 16px;
-}
-
-
-/* Hide default checkbox */
-
-.country-checkbox,
-.state-checkbox {
-    display: none;
-}
-
-
-/* Custom checkbox */
-
-.custom-checkbox {
-    width: 19px;
-    height: 19px;
-
-    flex-shrink: 0;
-
-    border: 2px solid var(--muted);
-    border-radius: 4px;
-}
-
-.country-checkbox:checked + .custom-checkbox,
-.state-checkbox:checked + .custom-checkbox {
     background: var(--primary);
-    border-color: var(--primary);
-}
-
-.country-checkbox:checked + .custom-checkbox::after,
-.state-checkbox:checked + .custom-checkbox::after {
-    content: "✓";
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     color: white;
-    font-size: 13px;
-}
-
-
-/* ---------- Expand button ---------- */
-
-.expand-country {
-    width: 40px;
-    height: 40px;
-
-    background: transparent;
     border: none;
+    border-radius: 8px;
 
-    color: var(--muted);
-    font-size: 22px;
-
-    cursor: pointer;
-}
-
-.expand-country:hover {
-    color: var(--primary);
-}
-
-
-/* ---------- States ---------- */
-
-.state-list {
-    display: none;
-
-    padding: 0 0 18px 47px;
-}
-
-.country.open .state-list {
-    display: block;
-}
-
-.state-row {
-    padding: 10px 0;
-
-    display: flex;
-    align-items: center;
-    gap: 12px;
-
-    color: var(--muted);
     font-size: 14px;
-
     cursor: pointer;
+    transition: background 0.2s;
 }
 
-.state-row:hover {
-    color: var(--text);
+.add-button:hover {
+    background: #3355c9;
 }
 
 
@@ -426,11 +308,12 @@ input {
     }
 
     .map-section {
-        margin-bottom: 65px;
+        margin-bottom: 20px;
     }
 
-    .map-container {
+    .map-wrapper {
         min-height: 280px;
+        margin-bottom: 50px;
         padding: 10px;
     }
 
@@ -528,7 +411,7 @@ input {
     justify-content: space-between;
 }
 
-.passport-header h1 {
+.page-title {
     margin: 0 0 8px;
 
     font-size: 42px;

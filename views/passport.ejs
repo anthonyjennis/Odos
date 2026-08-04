@@ -2,7 +2,7 @@
 
 <main class="passport-page">
   <!-- Profile -->
-  <h1>Your Passport</h1>
+  <h1 class="page-title">Your Passport</h1>
   <section class="passport-header">
     <div class="passport-user">
       <img
@@ -23,9 +23,8 @@
   <!-- Main Progress -->
   <section class="passport-progress">
     <div class="progress-number">
-      <!-- <span class="visited-number"> <%# stats.countriesVisited %> </span> -->
-
-      <span class="total-number"> / 251</span>
+      <span class="visited-number"> <%=total%> </span>
+      <span class="total-number"> / 247</span>
     </div>
 
     <p>Countries and Territories visited</p>
@@ -33,12 +32,12 @@
     <div class="progress-bar">
       <div
         class="progress-fill"
-        style="width: <%# stats.unPercentage %>%"
+        style="width: <%= (total / 247) * 100 %>%;"
       ></div>
     </div>
 
     <span class="progress-percentage">
-      <%# stats.unPercentage %>% of the world
+      <%= Math.round((total / 247) * 100) %>% of the world
     </span>
   </section>
 
@@ -56,7 +55,7 @@
       <div class="stat-card">
         <span class="stat-label"> Member States </span>
 
-        <strong class="stat-value"> <%# stats.countriesVisited %> </strong>
+        <strong class="stat-value"> COMING SOON </strong>
 
         <span class="stat-detail"> of 195 </span>
       </div>
@@ -64,7 +63,7 @@
       <div class="stat-card">
         <span class="stat-label"> Territories </span>
 
-        <strong class="stat-value"> <%# stats.countriesVisited %> </strong>
+        <strong class="stat-value"> COMING SOON </strong>
 
         <span class="stat-detail"> of 49 </span>
       </div>
@@ -72,7 +71,7 @@
       <div class="stat-card">
         <span class="stat-label"> Non Member States </span>
 
-        <strong class="stat-value"> <%# stats.countriesVisited %> </strong>
+        <strong class="stat-value"> COMING SOON </strong>
 
         <span class="stat-detail"> of 5 </span>
       </div>
@@ -80,7 +79,7 @@
       <div class="stat-card">
         <span class="stat-label"> Special Administrative Regions </span>
 
-        <strong class="stat-value"> <%# stats.countriesVisited %> </strong>
+        <strong class="stat-value"> COMING SOON </strong>
 
         <span class="stat-detail"> of 2 </span>
       </div>
@@ -89,19 +88,20 @@
       <div class="stat-card">
         <span class="stat-label"> Continents </span>
 
-        <strong class="stat-value"> <%# stats.continentsVisited %> </strong>
+        <strong class="stat-value"> COMING SOON </strong>
 
         <span class="stat-detail"> of 7 continents </span>
       </div>
       <div class="stat-card">
         <span class="stat-label"> Most Visited Continent </span>
 
-        <strong class="stat-value"> <%# stats.continentsVisited %> </strong>
+        <strong class="stat-value"> COMING SOON </strong>
 
         <span class="stat-detail"> of 7 continents </span>
       </div>
     </div>
   </section>
+  <h1 class="stat-value" style="text-align: center; margin-top: 20px;">Stats Coming Soon...</h1>
 </main>
 
 <%- include("partials/footer.ejs") %>
