@@ -19,6 +19,10 @@ const db = new pg.Pool({
   database: process.env.PG_DATABASE,
   password: process.env.PG_PASSWORD,
   port: process.env.PG_PORT,
+  ssl:
+    process.env.PG_HOST === "localhost"
+      ? false
+      : { rejectUnauthorized: false },
 });
 
 if (isProduction) {
