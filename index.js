@@ -15,13 +15,23 @@ app.use(
     secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: true,
+
+    cookie: {
+      maxAge: 1000 * 60 * 60 * 24 * 30
+    }
   }),
 );
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.use(passport.initialize());
 app.use(passport.session());
+
+app.use((req, res, next) => {
+    res.locals.user = req.user;
+    next();
+});
 
 const db = new pg.Client({
   user: process.env.PG_USER,
@@ -32,9 +42,19 @@ const db = new pg.Client({
 });
 db.connect();
 
-app.get("/", (req, res) => {
+async function checkVisisted() {
+  const result = await db.query("SELECT country_code FROM visits");
+  let countries = [];
+  result.rows.forEach((country) => {
+    countries.push(country.iso_a2);
+  });
+  return countries;
+}
+
+app.get("/", async(req, res) => {
   if (req.isAuthenticated()) {
-    res.render("index.ejs");
+    const countries = await checkVisisted();
+    res.render("index.ejs", { countries: countries, total: countries.length });
   } else {
     res.redirect("/login");
   }
@@ -44,8 +64,13 @@ app.get("/login", (req, res) => {
   res.render("login.ejs");
 });
 
-app.get("/passport", (req, res) => {
-  res.render("passport.ejs");
+app.get("/passport", async (req, res) => {
+  if (req.isAuthenticated()) {
+    res.render("passport.ejs");
+    console.log(req.user);
+  } else {
+    res.redirect("/login");
+  }
 });
 
 app.get("/dashboard", (req, res) => {

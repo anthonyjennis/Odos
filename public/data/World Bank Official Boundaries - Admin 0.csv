@@ -1,0 +1,252 @@
+﻿ISO_A3,﻿ISO_A2,﻿WB_A3,﻿WB_STATUS,﻿SOV_ISO_A3,﻿SOV_NAME,﻿NAM_0,﻿CONTINENT,﻿WB_REGION,﻿WB_INCOME,﻿ADM0CD_c
+﻿CHN,﻿CN,﻿CHN,﻿Member State,﻿CHN,﻿China,﻿China,﻿Asia,﻿EAS,﻿UMC,﻿CHN_01
+﻿JPN,﻿JP,﻿JPN,﻿Other,﻿Member State,﻿Japan,﻿Japan,﻿Asia,﻿EAS,﻿HIC,﻿JPN_01
+﻿PRK,﻿KP,﻿PRK,﻿Non Member State,﻿PRK,﻿D. P. R. of Korea,﻿D. P. R. of Korea,﻿Asia,﻿EAS,﻿LIC,﻿PRK_01
+﻿RUS,﻿RU,﻿RUS,﻿Member State,﻿RUS,﻿Russian Federation,﻿Russian Federation,﻿Europe,﻿ECS,﻿HIC,﻿RUS_01
+﻿VNM,﻿VN,﻿VNM,﻿Member State,﻿VNM,﻿Viet Nam,﻿Viet Nam,﻿Asia,﻿EAS,﻿UMC,﻿VNM_01
+﻿MNG,﻿MN,﻿MNG,﻿Member State,﻿MNG,﻿Mongolia,﻿Mongolia,﻿Asia,﻿EAS,﻿UMC,﻿MNG_01
+﻿KHM,﻿KH,﻿KHM,﻿Member State,﻿KHM,﻿Cambodia,﻿Cambodia,﻿Asia,﻿EAS,﻿LMC,﻿KHM_01
+﻿LAO,﻿LA,﻿LAO,﻿Member State,﻿LAO,﻿Lao People's Democratic Republic,﻿Lao People's Democratic Republic,﻿Asia,﻿EAS,﻿LMC,﻿LAO_01
+﻿MMR,﻿MM,﻿MMR,﻿Member State,﻿MMR,﻿Myanmar,﻿Myanmar,﻿Asia,﻿EAS,﻿LMC,﻿MMR_01
+﻿THA,﻿TH,﻿THA,﻿Member State,﻿THA,﻿Thailand,﻿Thailand,﻿Asia,﻿EAS,﻿UMC,﻿THA_01
+﻿AFG,﻿AF,﻿AFG,﻿Member State,﻿AFG,﻿Afghanistan,﻿Afghanistan,﻿Asia,﻿MEA,﻿LIC,﻿AFG_01
+﻿BTN,﻿BT,﻿BTN,﻿Member State,﻿BTN,﻿Bhutan,﻿Bhutan,﻿Asia,﻿SAS,﻿LMC,﻿BTN_01
+﻿HKG,﻿HK,﻿HKG,﻿Special Administrative Region,﻿CHN,﻿China,"﻿Hong Kong SAR, China",﻿Asia,﻿EAS,﻿HIC,﻿HKG_01
+﻿IDN,﻿ID,﻿IDN,﻿Member State,﻿IDN,﻿Indonesia,﻿Indonesia,﻿Asia,﻿EAS,﻿UMC,﻿IDN_01
+﻿IND,﻿IN,﻿IND,﻿Member State,﻿IND,﻿India,﻿India,﻿Asia,﻿SAS,﻿LMC,﻿IND_01
+﻿KAZ,﻿KZ,﻿KAZ,﻿Member State,﻿KAZ,﻿Kazakhstan,﻿Kazakhstan,﻿Asia,﻿ECS,﻿UMC,﻿KAZ_01
+﻿KGZ,﻿KG,﻿KGZ,﻿Member State,﻿KGZ,﻿Kyrgyz Republic,﻿Kyrgyz Republic,﻿Asia,﻿ECS,﻿LMC,﻿KGZ_01
+﻿KOR,﻿KR,﻿KOR,﻿Member State,﻿KOR,﻿Republic of Korea,﻿Republic of Korea,﻿Asia,﻿EAS,﻿HIC,﻿KOR_01
+﻿MAC,﻿MO,﻿MAC,﻿Special Administrative Region,﻿CHN,﻿China,"﻿Macau SAR, China",﻿Asia,﻿EAS,﻿HIC,﻿MAC_01
+﻿MYS,﻿MY,﻿MYS,﻿Member State,﻿MYS,﻿Malaysia,﻿Malaysia,﻿Asia,﻿EAS,﻿UMC,﻿MYS_01
+﻿NPL,﻿NP,﻿NPL,﻿Member State,﻿NPL,﻿Nepal,﻿Nepal,﻿Asia,﻿SAS,﻿LMC,﻿NPL_01
+﻿PAK,﻿PK,﻿PAK,﻿Member State,﻿PAK,﻿Pakistan,﻿Pakistan,﻿Asia,﻿MEA,﻿LMC,﻿PAK_01
+﻿PHL,﻿PH,﻿PHL,﻿Member State,﻿PHL,﻿Philippines,﻿Philippines,﻿Asia,﻿EAS,﻿UMC,﻿PHL_01
+﻿TJK,﻿TJ,﻿TJK,﻿Member State,﻿TJK,﻿Tajikistan,﻿Tajikistan,﻿Asia,﻿ECS,﻿LMC,﻿TJK_01
+﻿UZB,﻿UZ,﻿UZB,﻿Member State,﻿UZB,﻿Uzbekistan,﻿Uzbekistan,﻿Asia,﻿ECS,﻿LMC,﻿UZB_01
+﻿BGD,﻿BD,﻿BGD,﻿Member State,﻿BGD,﻿Bangladesh,﻿Bangladesh,﻿Asia,﻿SAS,﻿LMC,﻿BGD_01
+﻿CCK,﻿CC,﻿CCK,﻿Territory,﻿AUS,﻿Australia,﻿Cocos (Keeling) Islands (Aus.),﻿Oceania,﻿EAS,﻿HIC,﻿CCK_01
+﻿LKA,﻿LK,﻿LKA,﻿Member State,﻿LKA,﻿Sri Lanka,﻿Sri Lanka,﻿Asia,﻿SAS,﻿UMC,﻿LKA_01
+﻿MDV,﻿MV,﻿MDV,﻿Member State,﻿MDV,﻿Maldives,﻿Maldives,﻿Asia,﻿SAS,﻿UMC,﻿MDV_01
+﻿AZE,﻿AZ,﻿AZE,﻿Member State,﻿AZE,﻿Azerbaijan,﻿Azerbaijan,﻿Asia,﻿ECS,﻿UMC,﻿AZE_01
+﻿CXR,﻿CX,﻿CXR,﻿Territory,﻿AUS,﻿Australia,﻿Christmas Island (Aus.),﻿Oceania,﻿EAS,﻿HIC,﻿CXR_01
+﻿IRN,﻿IR,﻿IRN,﻿Member State,﻿IRN,﻿Islamic Republic of Iran,﻿Islamic Republic of Iran,﻿Asia,﻿MEA,﻿UMC,﻿IRN_01
+﻿NOR,﻿NO,﻿NOR,﻿Member State,﻿NOR,﻿Norway,﻿Norway,﻿Europe,﻿ECS,﻿HIC,﻿NOR_01
+﻿SGP,﻿SG,﻿SGP,﻿Member State,﻿SGP,﻿Singapore,﻿Singapore,﻿Asia,﻿EAS,﻿HIC,﻿SGP_01
+﻿SWE,﻿SE,﻿SWE,﻿Member State,﻿SWE,﻿Sweden,﻿Sweden,﻿Europe,﻿ECS,﻿HIC,﻿SWE_01
+﻿TKM,﻿TM,﻿TKM,﻿Member State,﻿TKM,﻿Turkmenistan,﻿Turkmenistan,﻿Asia,﻿ECS,﻿UMC,﻿TKM_01
+﻿ARM,﻿AM,﻿ARM,﻿Member State,﻿ARM,﻿Armenia,﻿Armenia,﻿Asia,﻿ECS,﻿UMC,﻿ARM_01
+﻿BLR,﻿BY,﻿BLR,﻿Member State,﻿BLR,﻿Belarus,﻿Belarus,﻿Europe,﻿ECS,﻿UMC,﻿BLR_01
+﻿GEO,﻿GE,﻿GEO,﻿Member State,﻿GEO,﻿Georgia,﻿Georgia,﻿Asia,﻿ECS,﻿UMC,﻿GEO_01
+﻿TUR,﻿TR,﻿TUR,﻿Member State,﻿TUR,﻿Türkiye,﻿Türkiye,﻿Asia,﻿ECS,﻿UMC,﻿TUR_01
+﻿UKR,﻿UA,﻿UKR,﻿Member State,﻿UKR,﻿Ukraine,﻿Ukraine,﻿Europe,﻿ECS,﻿UMC,﻿UKR_01
+﻿BGR,﻿BG,﻿BGR,﻿Member State,﻿BGR,﻿Bulgaria,﻿Bulgaria,﻿Europe,﻿ECS,﻿HIC,﻿BGR_01
+﻿EST,﻿EE,﻿EST,﻿Member State,﻿EST,﻿Estonia,﻿Estonia,﻿Europe,﻿ECS,﻿HIC,﻿EST_01
+﻿IRQ,﻿IQ,﻿IRQ,﻿Member State,﻿IRQ,﻿Iraq,﻿Iraq,﻿Asia,﻿MEA,﻿UMC,﻿IRQ_01
+﻿LTU,﻿LT,﻿LTU,﻿Member State,﻿LTU,﻿Lithuania,﻿Lithuania,﻿Europe,﻿ECS,﻿HIC,﻿LTU_01
+﻿LVA,﻿LV,﻿LVA,﻿Member State,﻿LVA,﻿Latvia,﻿Latvia,﻿Europe,﻿ECS,﻿HIC,﻿LVA_01
+﻿MDA,﻿MD,﻿MDA,﻿Member State,﻿MDA,﻿Moldova,﻿Moldova,﻿Europe,﻿ECS,﻿UMC,﻿MDA_01
+﻿POL,﻿PL,﻿POL,﻿Member State,﻿POL,﻿Poland,﻿Poland,﻿Europe,﻿ECS,﻿HIC,﻿POL_01
+﻿ROU,﻿RO,﻿ROM,﻿Member State,﻿ROM,﻿Romania,﻿Romania,﻿Europe,﻿ECS,﻿HIC,﻿ROU_01
+﻿SYR,﻿SY,﻿SYR,﻿Member State,﻿SYR,﻿Syrian Arab Republic,﻿Syrian Arab Republic,﻿Asia,﻿MEA,﻿LIC,﻿SYR_01
+﻿ALB,﻿AL,﻿ALB,﻿Member State,﻿ALB,﻿Albania,﻿Albania,﻿Europe,﻿ECS,﻿UMC,﻿ALB_01
+﻿BIH,﻿BA,﻿BIH,﻿Member State,﻿BIH,﻿Bosnia and Herzegovina,﻿Bosnia and Herzegovina,﻿Europe,﻿ECS,﻿UMC,﻿BIH_01
+﻿CZE,﻿CZ,﻿CZE,﻿Member State,﻿CZE,﻿Czech Republic,﻿Czech Republic,﻿Europe,﻿ECS,﻿HIC,﻿CZE_01
+﻿DNK,﻿DK,﻿DNK,﻿Member State,﻿DNK,﻿Denmark,﻿Denmark,﻿Europe,﻿ECS,﻿HIC,﻿DNK_01
+﻿FIN,﻿FI,﻿FIN,﻿Member State,﻿FIN,﻿Finland,﻿Finland,﻿Europe,﻿ECS,﻿HIC,﻿FIN_01
+﻿GRC,﻿GR,﻿GRC,﻿Member State,﻿GRC,﻿Greece,﻿Greece,﻿Europe,﻿ECS,﻿HIC,﻿GRC_01
+﻿HRV,﻿HR,﻿HRV,﻿Member State,﻿HRV,﻿Croatia,﻿Croatia,﻿Europe,﻿ECS,﻿HIC,﻿HRV_01
+﻿HUN,﻿HU,﻿HUN,﻿Member State,﻿HUN,﻿Hungary,﻿Hungary,﻿Europe,﻿ECS,﻿HIC,﻿HUN_01
+﻿ITA,﻿IT,﻿ITA,﻿Member State,﻿ITA,﻿Italy,﻿Italy,﻿Europe,﻿ECS,﻿HIC,﻿ITA_01
+﻿MKD,﻿MK,﻿MKD,﻿Member State,﻿MKD,﻿North Macedonia,﻿North Macedonia,﻿Europe,﻿ECS,﻿UMC,﻿MKD_01
+﻿MNE,﻿ME,﻿MNE,﻿Member State,﻿MNE,﻿Montenegro,﻿Montenegro,﻿Europe,﻿ECS,﻿UMC,﻿MNE_01
+﻿SRB,﻿YF,﻿SRB,﻿Member State,﻿SRB,﻿Serbia,﻿Serbia,﻿Europe,﻿ECS,﻿UMC,﻿SRB_01
+﻿SVK,﻿SK,﻿SVK,﻿Member State,﻿SVK,﻿Slovak Republic,﻿Slovak Republic,﻿Europe,﻿ECS,﻿HIC,﻿SVK_01
+﻿XKX,﻿XK,﻿XKX,﻿Member State,﻿XKX,﻿Kosovo,﻿Kosovo,﻿Europe,﻿ECS,﻿UMC,﻿XKX_01
+﻿AUT,﻿AT,﻿AUT,﻿Member State,﻿AUT,﻿Austria,﻿Austria,﻿Europe,﻿ECS,﻿HIC,﻿AUT_01
+﻿BEL,﻿BE,﻿BEL,﻿Member State,﻿BEL,﻿Belgium,﻿Belgium,﻿Europe,﻿ECS,﻿HIC,﻿BEL_01
+﻿CHE,﻿CH,﻿CHE,﻿Member State,﻿CHE,﻿Switzerland,﻿Switzerland,﻿Europe,﻿ECS,﻿HIC,﻿CHE_01
+﻿DEU,﻿DE,﻿DEU,﻿Member State,﻿DEU,﻿Germany,﻿Germany,﻿Europe,﻿ECS,﻿HIC,﻿DEU_01
+﻿DZA,﻿DZ,﻿DZA,﻿Member State,﻿DZA,﻿Algeria,﻿Algeria,﻿Africa,﻿MEA,﻿UMC,﻿DZA_01
+﻿FRA,﻿FR,﻿FRA,﻿Member State,﻿FRA,﻿France,﻿France,﻿Europe,﻿ECS,﻿HIC,﻿FRA_01
+﻿LIE,﻿LI,﻿LIE,﻿Non Member State,﻿LIE,﻿Liechtenstein,﻿Liechtenstein,﻿Europe,﻿ECS,﻿HIC,﻿LIE_01
+﻿LUX,﻿LU,﻿LUX,﻿Member State,﻿LUX,﻿Luxembourg,﻿Luxembourg,﻿Europe,﻿ECS,﻿HIC,﻿LUX_01
+﻿MLT,﻿MT,﻿MLT,﻿Member State,﻿MLT,﻿Malta,﻿Malta,﻿Europe,﻿MEA,﻿HIC,﻿MLT_01
+﻿SMR,﻿SM,﻿SMR,﻿Member State,﻿SMR,﻿San Marino,﻿San Marino,﻿Europe,﻿ECS,﻿HIC,﻿SMR_01
+﻿SVN,﻿SI,﻿SVN,﻿Member State,﻿SVN,﻿Slovenia,﻿Slovenia,﻿Europe,﻿ECS,﻿HIC,﻿SVN_01
+﻿TUN,﻿TN,﻿TUN,﻿Member State,﻿TUN,﻿Tunisia,﻿Tunisia,﻿Africa,﻿MEA,﻿LMC,﻿TUN_01
+﻿VAT,﻿VA,﻿VAT,﻿Non Member State,﻿VAT,﻿Vatican City,﻿Vatican City,﻿Europe,﻿ECS,﻿HIC,﻿VAT_01
+﻿AND,﻿AD,﻿ADO,﻿Member State,﻿AND,﻿Andorra,﻿Andorra,﻿Europe,﻿ECS,﻿HIC,﻿AND_01
+﻿ESP,﻿ES,﻿ESP,﻿Member State,﻿ESP,﻿Spain,﻿Spain,﻿Europe,﻿ECS,﻿HIC,﻿ESP_03
+﻿GBR,﻿GB,﻿GBR,﻿Member State,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,﻿United Kingdom,﻿Europe,﻿ECS,﻿HIC,﻿GBR_02
+﻿JEY,﻿JE,﻿JEY,﻿Territory,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,﻿Jersey (U.K.),﻿Europe,﻿ECS,﻿HIC,﻿JEY_01
+﻿MCO,﻿MC,﻿MCO,﻿Non Member State,﻿MCO,﻿Monaco,﻿Monaco,﻿Europe,﻿ECS,﻿HIC,﻿MCO_01
+﻿NLD,﻿NL,﻿NLD,﻿Member State,﻿NLD,﻿Netherlands,﻿Netherlands,﻿Europe,﻿ECS,﻿HIC,﻿NLD_01
+﻿BEN,﻿BJ,﻿BEN,﻿Member State,﻿BEN,﻿Benin,﻿Benin,﻿Africa,"﻿AFW,SSF",﻿LMC,﻿BEN_01
+﻿BFA,﻿BF,﻿BFA,﻿Member State,﻿BFA,﻿Burkina Faso,﻿Burkina Faso,﻿Africa,"﻿AFW,SSF",﻿LIC,﻿BFA_01
+﻿CIV,﻿CI,﻿CIV,﻿Member State,﻿CIV,﻿Côte d'Ivoire,﻿Côte d'Ivoire,﻿Africa,"﻿AFW,SSF",﻿LMC,﻿CIV_01
+﻿GHA,﻿GH,﻿GHA,﻿Member State,﻿GHA,﻿Ghana,﻿Ghana,﻿Africa,"﻿AFW,SSF",﻿LMC,﻿GHA_01
+﻿MLI,﻿ML,﻿MLI,﻿Member State,﻿MLI,﻿Mali,﻿Mali,﻿Africa,"﻿AFW,SSF",﻿LIC,﻿MLI_01
+﻿NER,﻿NE,﻿NER,﻿Member State,﻿NER,﻿Niger,﻿Niger,﻿Africa,"﻿AFW,SSF",﻿LIC,﻿NER_01
+﻿NGA,﻿NG,﻿NGA,﻿Member State,﻿NGA,﻿Nigeria,﻿Nigeria,﻿Africa,"﻿AFW,SSF",﻿LMC,﻿NGA_01
+﻿TGO,﻿TG,﻿TGO,﻿Member State,﻿TGO,﻿Togo,﻿Togo,﻿Africa,"﻿AFW,SSF",﻿LMC,﻿TGO_01
+﻿CMR,﻿CM,﻿CMR,﻿Member State,﻿CMR,﻿Cameroon,﻿Cameroon,﻿Africa,"﻿AFW,SSF",﻿LMC,﻿CMR_01
+﻿ESP,﻿ES,﻿ESP,﻿Territory,﻿ESP,﻿Spain,﻿Ceuta (Sp.),﻿Europe,﻿ECS,﻿HIC,﻿ESP_01
+﻿ESP,﻿ES,﻿ESP,﻿Territory,﻿ESP,﻿Spain,﻿Melilla (Sp.),﻿Europe,﻿ECS,﻿HIC,﻿ESP_02
+﻿GGY,﻿GG,﻿GGY,﻿Territory,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,﻿Guernsey (U.K.),﻿Europe,﻿ECS,﻿HIC,﻿GGY_01
+﻿GIB,﻿GI,﻿GBR,﻿Territory,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,﻿Gibraltar (U.K.),﻿Europe,﻿ECS,﻿HIC,﻿GIB_01
+﻿GIN,﻿GN,﻿GIN,﻿Member State,﻿GIN,﻿Guinea,﻿Guinea,﻿Africa,"﻿AFW,SSF",﻿LMC,﻿GIN_01
+﻿IMN,﻿IM,﻿IMY,﻿Territory,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,﻿Isle of Man (U.K.),﻿Europe,﻿ECS,﻿HIC,﻿IMN_01
+﻿IRL,﻿IE,﻿IRL,﻿Member State,﻿IRL,﻿Ireland,﻿Ireland,﻿Europe,﻿ECS,﻿HIC,﻿IRL_01
+﻿LBR,﻿LR,﻿LBR,﻿Member State,﻿LBR,﻿Liberia,﻿Liberia,﻿Africa,"﻿AFW,SSF",﻿LIC,﻿LBR_01
+﻿MAR,﻿MA,﻿MAR,﻿Member State,﻿MAR,﻿Morocco,﻿Morocco,﻿Africa,﻿MEA,﻿LMC,﻿MAR_01
+﻿MRT,﻿MR,﻿MRT,﻿Member State,﻿MRT,﻿Mauritania,﻿Mauritania,﻿Africa,"﻿AFW,SSF",﻿LMC,﻿MRT_01
+﻿PRT,﻿PT,﻿PRT,﻿Member State,﻿PRT,﻿Portugal,﻿Portugal,﻿Europe,﻿ECS,﻿HIC,﻿PRT_01
+﻿SEN,﻿SN,﻿SEN,﻿Member State,﻿SEN,﻿Senegal,﻿Senegal,﻿Africa,"﻿AFW,SSF",﻿LMC,﻿SEN_01
+﻿ALA,﻿AX,﻿FIN,﻿Territory,﻿FIN,﻿Finland,﻿Åland (Fin.),﻿Europe,﻿ECS,﻿HIC,﻿ALA_01
+﻿CPV,﻿CV,﻿CPV,﻿Member State,﻿CPV,﻿Cabo Verde,﻿Cabo Verde,﻿Africa,"﻿AFW,SSF",﻿UMC,﻿CPV_01
+﻿FRO,﻿FO,﻿FRO,﻿Territory,﻿DNK,﻿Denmark,﻿Faroe Islands (Den.),﻿Europe,﻿ECS,﻿HIC,﻿FRO_01
+﻿GAB,﻿GA,﻿GAB,﻿Member State,﻿GAB,﻿Gabon,﻿Gabon,﻿Africa,"﻿AFW,SSF",﻿UMC,﻿GAB_01
+﻿GMB,﻿GM,﻿GMB,﻿Member State,﻿GMB,﻿The Gambia,﻿The Gambia,﻿Africa,"﻿AFW,SSF",﻿LIC,﻿GMB_01
+﻿GNB,﻿GW,﻿GNB,﻿Member State,﻿GNB,﻿Guinea-Bissau,﻿Guinea-Bissau,﻿Africa,"﻿AFW,SSF",﻿LIC,﻿GNB_01
+﻿GNQ,﻿GQ,﻿GNQ,﻿Member State,﻿GNQ,﻿Equatorial Guinea,﻿Equatorial Guinea,﻿Africa,"﻿AFW,SSF",﻿UMC,﻿GNQ_01
+﻿SLE,﻿SL,﻿SLE,﻿Member State,﻿SLE,﻿Sierra Leone,﻿Sierra Leone,﻿Africa,"﻿AFW,SSF",﻿LIC,﻿SLE_01
+﻿STP,﻿ST,﻿STP,﻿Member State,﻿STP,﻿São Tomé and Príncipe,﻿São Tomé and Príncipe,﻿Africa,"﻿AFE,SSF",﻿LMC,﻿STP_01
+﻿AUS,﻿AU,﻿AUS,﻿Member State,﻿AUS,﻿Australia,﻿Australia,﻿Oceania,﻿EAS,﻿HIC,﻿AUS_02
+﻿BRN,﻿BN,﻿BRN,﻿Member State,﻿BRN,﻿Brunei Darussalam,﻿Brunei Darussalam,﻿Asia,﻿EAS,﻿HIC,﻿BRN_01
+﻿FSM,﻿FM,﻿FSM,﻿Member State,﻿FSM,﻿Federated States of Micronesia,﻿Federated States of Micronesia,﻿Oceania,﻿EAS,﻿UMC,﻿FSM_01
+﻿KIR,﻿KI,﻿KIR,﻿Member State,﻿KIR,﻿Kiribati,﻿Kiribati,﻿Oceania,﻿EAS,﻿LMC,﻿KIR_01
+﻿MHL,﻿MH,﻿MHL,﻿Member State,﻿MHL,﻿Marshall Islands,﻿Marshall Islands,﻿Oceania,﻿EAS,﻿UMC,﻿MHL_01
+﻿NRU,﻿NR,﻿NRU,﻿Member State,﻿NRU,﻿Naoero,﻿Naoero,﻿Oceania,﻿EAS,﻿HIC,﻿NRU_01
+﻿PNG,﻿PG,﻿PNG,﻿Member State,﻿PNG,﻿Papua New Guinea,﻿Papua New Guinea,﻿Oceania,﻿EAS,﻿LMC,﻿PNG_01
+﻿SLB,﻿SB,﻿SLB,﻿Member State,﻿SLB,﻿Solomon Islands,﻿Solomon Islands,﻿Oceania,﻿EAS,﻿LMC,﻿SLB_01
+﻿TLS,﻿TP,﻿TMP,﻿Member State,﻿TLS,﻿Timor-Leste,﻿Timor-Leste,﻿Asia,﻿EAS,﻿LMC,﻿TLS_01
+﻿TUV,﻿TV,﻿TUV,﻿Member State,﻿TUV,﻿Tuvalu,﻿Tuvalu,﻿Oceania,﻿EAS,﻿UMC,﻿TUV_01
+﻿UMI,﻿UM,﻿UMI,﻿Territory,﻿USA,﻿United States of America,﻿U.S. Minor Outlying Islands,﻿North America,﻿NAC,﻿HIC,﻿UMI_01
+﻿AUS,﻿AU,﻿AUS,﻿Territory,﻿AUS,﻿Australia,﻿Ashmore and Cartier Islands (Aus.),﻿Oceania,﻿EAS,﻿HIC,﻿AUS_01
+﻿FJI,﻿FJ,﻿FJI,﻿Member State,﻿FJI,﻿Fiji,﻿Fiji,﻿Oceania,﻿EAS,﻿UMC,﻿FJI_01
+﻿GUM,﻿GU,﻿GUM,﻿Territory,﻿USA,﻿United States of America,﻿Guam (U.S.),﻿Oceania,﻿EAS,﻿HIC,﻿GUM_01
+﻿LBN,﻿LB,﻿LBN,﻿Member State,﻿LBN,﻿Lebanon,﻿Lebanon,﻿Asia,﻿MEA,﻿LMC,﻿LBN_01
+﻿MNP,﻿MP,﻿MNP,﻿Territory,﻿USA,﻿United States of America,﻿Northern Mariana Islands (U.S.),﻿Oceania,﻿EAS,﻿HIC,﻿MNP_01
+﻿NCL,﻿NC,﻿NCL,﻿Territory,﻿FRA,﻿France,﻿New Caledonia (Fr.),﻿Oceania,﻿EAS,﻿HIC,﻿NCL_01
+﻿NFK,﻿NF,﻿NFK,﻿Territory,﻿AUS,﻿Australia,﻿Norfolk Island (Aus.),﻿Oceania,﻿EAS,﻿HIC,﻿NFK_01
+﻿NZL,﻿NZ,﻿NZL,﻿Member State,﻿NZL,﻿New Zealand,﻿New Zealand,﻿Oceania,﻿EAS,﻿HIC,﻿NZL_01
+﻿PLW,﻿PW,﻿PLW,﻿Member State,﻿PLW,﻿Palau,﻿Palau,﻿Oceania,﻿EAS,﻿HIC,﻿PLW_01
+﻿VUT,﻿VU,﻿VUT,﻿Member State,﻿VUT,﻿Vanuatu,﻿Vanuatu,﻿Oceania,﻿EAS,﻿LMC,﻿VUT_01
+﻿CYP,﻿CY,﻿CYP,﻿Member State,﻿CYP,﻿Cyprus,﻿Cyprus,﻿Asia,﻿ECS,﻿HIC,﻿CYP_01
+﻿EGY,﻿EG,﻿EGY,﻿Member State,﻿EGY,﻿Arab Republic of Egypt,﻿Arab Republic of Egypt,﻿Africa,﻿MEA,﻿LMC,﻿EGY_01
+﻿GBR,﻿GB,﻿GBR,﻿Territory,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,﻿Sovereign Base Areas of Akrotiri and Dhekelia (U.K.),﻿Europe,﻿ECS,﻿HIC,﻿GBR_01
+﻿ISR,﻿IL,﻿ISR,﻿Member State,﻿ISR,﻿Israel,﻿Israel,﻿Asia,﻿MEA,﻿HIC,﻿ISR_01
+﻿JOR,﻿JO,﻿JOR,﻿Member State,﻿JOR,﻿Jordan,﻿Jordan,﻿Asia,﻿MEA,﻿UMC,﻿JOR_01
+﻿OMN,﻿OM,﻿OMN,﻿Member State,﻿OMN,﻿Oman,﻿Oman,﻿Asia,﻿MEA,﻿HIC,﻿OMN_01
+﻿PSE,﻿PS,﻿WBG,﻿Territory,﻿PSE,﻿West Bank and Gaza,﻿West Bank and Gaza,﻿Asia,﻿MEA,﻿LMC,﻿PSE_01
+﻿SAU,﻿SA,﻿SAU,﻿Member State,﻿SAU,﻿Saudi Arabia,﻿Saudi Arabia,﻿Asia,﻿MEA,﻿HIC,﻿SAU_01
+﻿ARE,﻿AE,﻿ARE,﻿Member State,﻿ARE,﻿United Arab Emirates,﻿United Arab Emirates,﻿Asia,﻿MEA,﻿HIC,﻿ARE_01
+﻿ERI,﻿ER,﻿ERI,﻿Member State,﻿ERI,﻿Eritrea,﻿Eritrea,﻿Africa,"﻿AFE,SSF",﻿LIC,﻿ERI_01
+﻿ETH,﻿ET,﻿ETH,﻿Member State,﻿ETH,﻿Ethiopia,﻿Ethiopia,﻿Africa,"﻿AFE,SSF",﻿LIC,﻿ETH_01
+﻿KWT,﻿KW,﻿KWT,﻿Member State,﻿KWT,﻿Kuwait,﻿Kuwait,﻿Asia,﻿MEA,﻿HIC,﻿KWT_01
+﻿SDN,﻿SD,﻿SDN,﻿Member State,﻿SDN,﻿Sudan,﻿Sudan,﻿Africa,"﻿AFE,SSF",﻿LIC,﻿SDN_01
+﻿SOM,﻿SO,﻿SOM,﻿Member State,﻿SOM,﻿Federal Republic of Somalia,﻿Federal Republic of Somalia,﻿Africa,"﻿AFE,SSF",﻿LIC,﻿SOM_01
+﻿SSD,﻿SS,﻿SSD,﻿Member State,﻿SSD,﻿South Sudan,﻿South Sudan,﻿Africa,"﻿AFE,SSF",﻿LIC,﻿SSD_01
+﻿YEM,﻿RY,﻿YEM,﻿Member State,﻿YEM,﻿Republic of Yemen,﻿Republic of Yemen,﻿Asia,﻿MEA,﻿LIC,﻿YEM_01
+﻿AGO,﻿AO,﻿AGO,﻿Member State,﻿AGO,﻿Angola,﻿Angola,﻿Africa,"﻿AFE,SSF",﻿LMC,﻿AGO_01
+﻿BDI,﻿BI,﻿BDI,﻿Member State,﻿BDI,﻿Burundi,﻿Burundi,﻿Africa,"﻿AFE,SSF",﻿LIC,﻿BDI_01
+﻿BHR,﻿BH,﻿BHR,﻿Member State,﻿BHR,﻿Bahrain,﻿Bahrain,﻿Asia,﻿MEA,﻿HIC,﻿BHR_01
+﻿CAF,﻿CF,﻿CAF,﻿Member State,﻿CAF,﻿Central African Republic,﻿Central African Republic,﻿Africa,"﻿AFW,SSF",﻿LIC,﻿CAF_01
+﻿COD,﻿ZR,﻿DRC,﻿Member State,﻿COD,﻿Democratic Republic of Congo,﻿Democratic Republic of Congo,﻿Africa,"﻿AFE,SSF",﻿LIC,﻿COD_01
+﻿COG,﻿CG,﻿COG,﻿Member State,﻿COG,﻿Congo,﻿Congo,﻿Africa,"﻿AFW,SSF",﻿LMC,﻿COG_01
+﻿DJI,﻿DJ,﻿DJI,﻿Member State,﻿DJI,﻿Djibouti,﻿Djibouti,﻿Africa,﻿MEA,﻿LMC,﻿DJI_01
+﻿KEN,﻿KE,﻿KEN,﻿Member State,﻿KEN,﻿Kenya,﻿Kenya,﻿Africa,"﻿AFE,SSF",﻿LMC,﻿KEN_01
+﻿LBY,﻿LY,﻿LBY,﻿Member State,﻿LBY,﻿Libya,﻿Libya,﻿Africa,﻿MEA,﻿UMC,﻿LBY_01
+﻿QAT,﻿QA,﻿QAT,﻿Member State,﻿QAT,﻿Qatar,﻿Qatar,﻿Asia,﻿MEA,﻿HIC,﻿QAT_01
+﻿RWA,﻿RW,﻿RWA,﻿Member State,﻿RWA,﻿Rwanda,﻿Rwanda,﻿Africa,"﻿AFE,SSF",﻿LIC,﻿RWA_01
+﻿SYC,﻿SC,﻿SYC,﻿Member State,﻿SYC,﻿Seychelles,﻿Seychelles,﻿Africa,"﻿AFE,SSF",﻿HIC,﻿SYC_01
+﻿TCD,﻿TD,﻿TCD,﻿Member State,﻿TCD,﻿Chad,﻿Chad,﻿Africa,"﻿AFW,SSF",﻿LIC,﻿TCD_01
+﻿TZA,﻿TZ,﻿TZA,﻿Member State,﻿TZA,﻿Tanzania,﻿Tanzania,﻿Africa,"﻿AFE,SSF",﻿LMC,﻿TZA_01
+﻿UGA,﻿UG,﻿UGA,﻿Member State,﻿UGA,﻿Uganda,﻿Uganda,﻿Africa,"﻿AFE,SSF",﻿LIC,﻿UGA_01
+﻿ATF,﻿TF,﻿ATF,﻿Territory,﻿FRA,﻿France,﻿French Southern and Antarctic Lands (Fr.),﻿Europe,﻿ECS,﻿HIC,﻿ATF_01
+﻿BWA,﻿BW,﻿BWA,﻿Member State,﻿BWA,﻿Botswana,﻿Botswana,﻿Africa,"﻿AFE,SSF",﻿UMC,﻿BWA_01
+﻿HMD,﻿HM,﻿HMD,﻿Territory,﻿AUS,﻿Australia,﻿Heard Island and McDonald Islands (Aus.),﻿Oceania,﻿EAS,﻿HIC,﻿HMD_01
+﻿MDG,﻿MG,﻿MDG,﻿Member State,﻿MDG,﻿Madagascar,﻿Madagascar,﻿Africa,"﻿AFE,SSF",﻿LIC,﻿MDG_01
+﻿MOZ,﻿MZ,﻿MOZ,﻿Member State,﻿MOZ,﻿Mozambique,﻿Mozambique,﻿Africa,"﻿AFE,SSF",﻿LIC,﻿MOZ_01
+﻿MUS,﻿MU,﻿MUS,﻿Member State,﻿MUS,﻿Mauritius,﻿Mauritius,﻿Africa,"﻿AFE,SSF",﻿UMC,﻿MUS_01
+﻿MWI,﻿MW,﻿MWI,﻿Member State,﻿MWI,﻿Malawi,﻿Malawi,﻿Africa,"﻿AFE,SSF",﻿LIC,﻿MWI_01
+﻿NAM,﻿NA,﻿NAM,﻿Member State,﻿NAM,﻿Namibia,﻿Namibia,﻿Africa,"﻿AFE,SSF",﻿LMC,﻿NAM_01
+﻿REU,﻿RE,﻿FRA,﻿Member State,﻿FRA,﻿France,﻿France,﻿Europe,﻿ECS,﻿HIC,﻿REU_01
+﻿SWZ,﻿SZ,﻿SWZ,﻿Member State,﻿SWZ,﻿Eswatini,﻿Eswatini,﻿Africa,"﻿AFE,SSF",﻿LMC,﻿SWZ_01
+﻿ZAF,﻿ZA,﻿ZAF,﻿Member State,﻿ZAF,﻿South Africa,﻿South Africa,﻿Africa,"﻿AFE,SSF",﻿UMC,﻿ZAF_01
+﻿ZMB,﻿ZM,﻿ZMB,﻿Member State,﻿ZMB,﻿Zambia,﻿Zambia,﻿Africa,"﻿AFE,SSF",﻿LMC,﻿ZMB_01
+﻿ZWE,﻿ZW,﻿ZWE,﻿Member State,﻿ZWE,﻿Zimbabwe,﻿Zimbabwe,﻿Africa,"﻿AFE,SSF",﻿LMC,﻿ZWE_01
+﻿COM,﻿KM,﻿COM,﻿Member State,﻿COM,﻿Comoros,﻿Comoros,﻿Africa,"﻿AFE,SSF",﻿LMC,﻿COM_01
+﻿LSO,﻿LS,﻿LSO,﻿Member State,﻿LSO,﻿Lesotho,﻿Lesotho,﻿Africa,"﻿AFE,SSF",﻿LMC,﻿LSO_01
+﻿MYT,﻿YT,﻿FRA,﻿Member State,﻿FRA,﻿France,﻿France,﻿Europe,﻿ECS,﻿HIC,﻿MYT_01
+﻿SHN,﻿SH,﻿SHN,﻿Territory,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,"﻿Saint Helena, Ascension and Tristan da Cunha (U.K.)",﻿Europe,﻿ECS,﻿HIC,﻿SHN_01
+﻿BVT,﻿BV,﻿BVT,﻿Territory,﻿NOR,﻿Norway,﻿Bouvet Island (Nor.),﻿Europe,﻿ECS,﻿HIC,﻿BVT_01
+﻿SJM,﻿SJ,﻿SJM,﻿Territory,﻿NOR,﻿Norway,﻿Svalbard and Jan Mayen (Nor.),﻿Europe,﻿ECS,﻿HIC,﻿SJM_01
+﻿BRA,﻿BR,﻿BRA,﻿Member State,﻿BRA,﻿Brazil,﻿Brazil,﻿South America,﻿LCN,﻿UMC,﻿BRA_01
+﻿BRB,﻿BB,﻿BRB,﻿Member State,﻿BRB,﻿Barbados,﻿Barbados,﻿North America,﻿LCN,﻿HIC,﻿BRB_01
+﻿GUF,﻿GF,﻿FRA,﻿Member State,﻿FRA,﻿France,﻿France,﻿Europe,﻿ECS,﻿HIC,﻿GUF_01
+﻿GUY,﻿GY,﻿GUY,﻿Member State,﻿GUY,﻿Guyana,﻿Guyana,﻿South America,﻿LCN,﻿HIC,﻿GUY_01
+﻿ISL,﻿IS,﻿ISL,﻿Member State,﻿ISL,﻿Iceland,﻿Iceland,﻿Europe,﻿ECS,﻿HIC,﻿ISL_01
+﻿LCA,﻿LC,﻿LCA,﻿Member State,﻿LCA,﻿Saint Lucia,﻿Saint Lucia,﻿North America,﻿LCN,﻿UMC,﻿LCA_01
+﻿MTQ,﻿MQ,﻿FRA,﻿Member State,﻿FRA,﻿France,﻿France,﻿Europe,﻿ECS,﻿HIC,﻿MTQ_01
+﻿SUR,﻿SR,﻿SUR,﻿Member State,﻿SUR,﻿Suriname,﻿Suriname,﻿South America,﻿LCN,﻿UMC,﻿SUR_01
+﻿VCT,﻿VC,﻿VCT,﻿Member State,﻿VCT,﻿Saint Vincent and the Grenadines,﻿Saint Vincent and the Grenadines,﻿North America,﻿LCN,﻿UMC,﻿VCT_01
+﻿CAN,﻿CA,﻿CAN,﻿Member State,﻿CAN,﻿Canada,﻿Canada,﻿North America,﻿NAC,﻿HIC,﻿CAN_01
+﻿SPM,﻿PM,﻿SPM,﻿Territory,﻿FRA,﻿France,﻿Saint-Pierre-et-Miquelon (Fr.),﻿Europe,﻿ECS,﻿HIC,﻿SPM_01
+﻿TTO,﻿TT,﻿TTO,﻿Member State,﻿TTO,﻿Trinidad and Tobago,﻿Trinidad and Tobago,﻿North America,﻿LCN,﻿HIC,﻿TTO_01
+﻿VEN,﻿VE,﻿VEN,﻿Member State,﻿VEN,﻿Republica Bolivariana de Venezuela,﻿Republica Bolivariana de Venezuela,﻿South America,﻿LCN,﻿LMC,﻿VEN_01
+﻿USA,﻿US,﻿USA,﻿Member State,﻿USA,﻿United States of America,﻿United States of America,﻿North America,﻿NAC,﻿HIC,﻿USA_01
+﻿ARG,﻿AR,﻿ARG,﻿Member State,﻿ARG,﻿Argentina,﻿Argentina,﻿South America,﻿LCN,﻿UMC,﻿ARG_01
+﻿BOL,﻿BO,﻿BOL,﻿Member State,﻿BOL,﻿Bolivia,﻿Bolivia,﻿South America,﻿LCN,﻿LMC,﻿BOL_01
+﻿PRY,﻿PY,﻿PRY,﻿Member State,﻿PRY,﻿Paraguay,﻿Paraguay,﻿South America,﻿LCN,﻿UMC,﻿PRY_01
+﻿DOM,﻿DO,﻿DOM,﻿Member State,﻿DOM,﻿Dominican Republic,﻿Dominican Republic,﻿North America,﻿LCN,﻿UMC,﻿DOM_01
+﻿HTI,﻿HT,﻿HTI,﻿Member State,﻿HIT,﻿Haiti,﻿Haiti,﻿North America,﻿LCN,﻿LMC,﻿HTI_01
+﻿URY,﻿UY,﻿URY,﻿Member State,﻿URY,﻿Uruguay,﻿Uruguay,﻿South America,﻿LCN,﻿HIC,﻿URY_01
+﻿BHS,﻿BS,﻿BHS,﻿Member State,﻿BHS,﻿The Bahamas,﻿The Bahamas,﻿North America,﻿LCN,﻿HIC,﻿BHS_01
+﻿BMU,﻿BM,﻿BMU,﻿Territory,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,﻿Bermuda (U.K.),﻿North America,﻿NAC,﻿HIC,﻿BMU_01
+﻿CUB,﻿CU,﻿CUB,﻿Non Member State,﻿CUB,﻿Cuba,﻿Cuba,﻿North America,﻿LCN,﻿UMC,﻿CUB_01
+﻿MEX,﻿MX,﻿MEX,﻿Member State,﻿MEX,﻿Mexico,﻿Mexico,﻿North America,﻿LCN,﻿UMC,﻿MEX_01
+﻿TCA,﻿TC,﻿TCA,﻿Territory,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,﻿Turks and Caicos Islands (U.K.),﻿North America,﻿LCN,﻿HIC,﻿TCA_01
+﻿ABW,﻿AW,﻿ABW,﻿Territory,﻿NLD,﻿Netherlands,﻿Aruba (Neth.),﻿North America,﻿LCN,﻿HIC,﻿ABW_01
+﻿AIA,﻿AI,﻿AIA,﻿Territory,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,﻿Anguilla (U.K.),﻿Europe,﻿ECS,﻿HIC,﻿AIA_01
+﻿ATG,﻿AG,﻿ATG,﻿Member State,﻿ATG,﻿Antigua and Barbuda,﻿Antigua and Barbuda,﻿North America,﻿LCN,﻿HIC,﻿ATG_01
+﻿BES,﻿BQ,﻿BES,﻿Territory,﻿NLD,﻿Netherlands,﻿Bonaire (Neth.),﻿Europe,﻿ECS,﻿HIC,﻿BES_01
+﻿BES,﻿BQ,﻿BES,﻿Territory,﻿NLD,﻿Netherlands,﻿Saba (Neth.),﻿Europe,﻿ECS,﻿HIC,﻿BES_02
+﻿BES,﻿BQ,﻿BES,﻿Territory,﻿NLD,﻿Netherlands,﻿Sint Eustatius (Neth.),﻿Europe,﻿ECS,﻿HIC,﻿BES_03
+﻿BLM,﻿BL,﻿BLM,﻿Territory,﻿FRA,﻿France,﻿Saint-Barthélemy (Fr.),﻿Europe,﻿ECS,﻿HIC,﻿BLM_01
+﻿BLZ,﻿BZ,﻿BLZ,﻿Member State,﻿BLZ,﻿Belize,﻿Belize,﻿North America,﻿LCN,﻿UMC,﻿BLZ_01
+﻿COL,﻿CO,﻿COL,﻿Member State,﻿COL,﻿Colombia,﻿Colombia,﻿South America,﻿LCN,﻿UMC,﻿COL_01
+﻿CUW,﻿CW,﻿CUW,﻿Territory,﻿NLD,﻿Netherlands,﻿Curaçao (Neth.),﻿North America,﻿LCN,﻿HIC,﻿CUW_01
+﻿DMA,﻿DM,﻿DMA,﻿Member State,﻿DMA,﻿Dominica,﻿Dominica,﻿North America,﻿LCN,﻿UMC,﻿DMA_01
+﻿GLP,﻿GP,﻿FRA,﻿Member State,﻿FRA,﻿France,﻿France,﻿Europe,﻿ECS,﻿HIC,﻿GLP_01
+﻿GRD,﻿GD,﻿GRD,﻿Member State,﻿GRD,﻿Grenada,﻿Grenada,﻿North America,﻿LCN,﻿UMC,﻿GRD_01
+﻿GTM,﻿GT,﻿GTM,﻿Member State,﻿GTM,﻿Guatemala,﻿Guatemala,﻿North America,﻿LCN,﻿UMC,﻿GTM_01
+﻿HND,﻿HN,﻿HND,﻿Member State,﻿HND,﻿Honduras,﻿Honduras,﻿North America,﻿LCN,﻿LMC,﻿HND_01
+﻿JAM,﻿JM,﻿JAM,﻿Member State,﻿JAM,﻿Jamaica,﻿Jamaica,﻿North America,﻿LCN,﻿UMC,﻿JAM_01
+﻿KNA,﻿KN,﻿KNA,﻿Member State,﻿KNA,﻿Saint Kitts and Nevis,﻿Saint Kitts and Nevis,﻿North America,﻿LCN,﻿HIC,﻿KNA_01
+﻿MAF,﻿MF,﻿MAF,﻿Territory,﻿FRA,﻿France,﻿Saint-Martin (Fr.),﻿North America,﻿LCN,﻿HIC,﻿MAF_01
+﻿MSR,﻿MS,﻿MSR,﻿Territory,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,﻿Montserrat (U.K.),﻿Europe,﻿ECS,﻿HIC,﻿MSR_01
+﻿NIC,﻿NI,﻿NIC,﻿Member State,﻿NIC,﻿Nicaragua,﻿Nicaragua,﻿North America,﻿LCN,﻿LMC,﻿NIC_01
+﻿PRI,﻿PR,﻿PRI,﻿Territory,﻿USA,﻿United States of America,﻿Puerto Rico (U.S.),﻿North America,﻿LCN,﻿HIC,﻿PRI_01
+﻿SLV,﻿SV,﻿SLV,﻿Member State,﻿SLV,﻿El Salvador,﻿El Salvador,﻿North America,﻿LCN,﻿UMC,﻿SLV_01
+﻿SXM,﻿SX,﻿SXM,﻿Territory,﻿NLD,﻿Netherlands,﻿Sint Maarten (Neth.),﻿North America,﻿LCN,﻿HIC,﻿SXM_01
+﻿VGB,﻿VG,﻿VGB,﻿Territory,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,﻿British Virgin Islands (U.K.),﻿North America,﻿LCN,﻿HIC,﻿VGB_01
+﻿VIR,﻿VI,﻿VIR,﻿Territory,﻿USA,﻿United States of America,﻿United States Virgin Islands (U.S.),﻿North America,﻿LCN,﻿HIC,﻿VIR_01
+﻿CRI,﻿CR,﻿CRI,﻿Member State,﻿CRI,﻿Costa Rica,﻿Costa Rica,﻿North America,﻿LCN,﻿HIC,﻿CRI_01
+﻿CYM,﻿KY,﻿CYM,﻿Territory,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,﻿Cayman Islands (U.K.),﻿North America,﻿LCN,﻿HIC,﻿CYM_01
+﻿ECU,﻿EC,﻿ECU,﻿Member State,﻿ECU,﻿Ecuador,﻿Ecuador,﻿South America,﻿LCN,﻿UMC,﻿ECU_01
+﻿PAN,﻿PA,﻿PAN,﻿Member State,﻿PAN,﻿Panama,﻿Panama,﻿North America,﻿LCN,﻿HIC,﻿PAN_01
+﻿PER,﻿PE,﻿PER,﻿Member State,﻿PER,﻿Peru,﻿Peru,﻿South America,﻿LCN,﻿UMC,﻿PER_01
+﻿ASM,﻿AS,﻿ASM,﻿Territory,﻿USA,﻿United States of America,﻿American Samoa (U.S.),﻿Oceania,﻿EAS,﻿HIC,﻿ASM_01
+﻿CHL,﻿CL,﻿CHL,﻿Member State,﻿CHL,﻿Chile,﻿Chile,﻿South America,﻿LCN,﻿HIC,﻿CHL_01
+﻿COK,﻿CK,﻿COK,﻿Territory,﻿NZL,﻿New Zealand,﻿Cook Islands (N.Z.),﻿Oceania,﻿EAS,﻿HIC,﻿COK_01
+﻿CPT,﻿CP,﻿FRA,﻿Territory,﻿FRA,﻿France,﻿Clipperton Island (Fr.),﻿Europe,﻿ECS,﻿HIC,﻿CPT_01
+﻿GRL,﻿GL,﻿GRL,﻿Territory,﻿DNK,﻿Denmark,﻿Greenland (Den.),﻿North America,﻿ECS,﻿HIC,﻿GRL_01
+﻿NIU,﻿NU,﻿NIU,﻿Territory,﻿NZL,﻿New Zealand,﻿Niue (N.Z.),﻿Oceania,﻿EAS,﻿HIC,﻿NIU_01
+﻿PCN,﻿PN,﻿PCN,﻿Territory,﻿GBR,﻿United Kingdom of Great Britain and Northern Ireland,﻿Pitcairn Islands (U.K.),﻿Europe,﻿ECS,﻿HIC,﻿PCN_01
+﻿PYF,﻿PF,﻿PYF,﻿Territory,﻿FRA,﻿France,﻿French Polynesia (Fr.),﻿Oceania,﻿EAS,﻿HIC,﻿PYF_01
+﻿TKL,﻿TK,﻿TKL,﻿Territory,﻿NZL,﻿New Zealand,﻿Tokelau (N.Z.),﻿Oceania,﻿EAS,﻿HIC,﻿TKL_01
+﻿TON,﻿TO,﻿TON,﻿Member State,﻿TON,﻿Tonga,﻿Tonga,﻿Oceania,﻿EAS,﻿UMC,﻿TON_01
+﻿WLF,﻿WF,﻿WLF,﻿Territory,﻿FRA,﻿France,﻿Wallis and Futuna (Fr.),﻿Europe,﻿ECS,﻿HIC,﻿WLF_01
+﻿WSM,﻿WS,﻿WSM,﻿Member State,﻿WSM,﻿Samoa,﻿Samoa,﻿Oceania,﻿EAS,﻿UMC,﻿WSM_01

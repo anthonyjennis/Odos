@@ -148,7 +148,7 @@ input {
 
 /* Map itself */
 
-.map-container {
+.map-wrapper {
     width: 100%;
     min-height: 480px;
     padding: 25px;
@@ -163,19 +163,16 @@ input {
 }
 
 #world-map {
-    width: 100%;
-}
-
-#world-map svg {
     display: block;
     width: 100%;
     height: auto;
+    max-height: 550px;
 }
 
 
 /* SVG countries */
 
-#world-map path {
+#world-map .map-country {
     fill: #c8c0b0;
     stroke: var(--background);
     stroke-width: 0.5;
@@ -184,11 +181,11 @@ input {
     transition: fill 0.15s;
 }
 
-#world-map path:hover {
+#world-map .map-country:hover {
     fill: var(--primary);
 }
 
-#world-map path.visited {
+#world-map .map-country.visited {
     fill: var(--visited);
 }
 
