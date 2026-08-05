@@ -61,8 +61,8 @@ app.use((req, res, next) => {
   next();
 });
 
-async function checkVisited() {
-  const result = await db.query("SELECT iso_a2 FROM visits");
+async function checkVisited(userId) {
+  const result = await db.query("SELECT iso_a2 FROM visits WHERE user_id = $1", [userId]);
   let countries = [];
   result.rows.forEach((country) => {
     countries.push(country.iso_a2);
@@ -72,7 +72,7 @@ async function checkVisited() {
 
 app.get("/", async (req, res) => {
   if (req.isAuthenticated()) {
-    const countries = await checkVisited();
+    const countries = await checkVisited(req.user.id);
     res.render("index.ejs", { countries: countries, total: countries.length });
   } else {
     res.redirect("/login");
@@ -85,7 +85,7 @@ app.get("/login", (req, res) => {
 
 app.get("/passport", async (req, res) => {
   if (req.isAuthenticated()) {
-    const countries = await checkVisited();
+    const countries = await checkVisited(req.user.id);
     res.render("passport.ejs", { countries: countries, total: countries.length });
     console.log(req.user);
   } else {
@@ -95,7 +95,7 @@ app.get("/passport", async (req, res) => {
 
 app.get("/dashboard", async (req, res) => {
   if (req.isAuthenticated()) {
-    const countries = await checkVisited();
+    const countries = await checkVisited(req.user.id);
     res.render("index.ejs", { countries: countries, total: countries.length });
   } else {
     res.redirect("/login");
@@ -130,7 +130,7 @@ app.post("/add", async (req, res) => {
         res.redirect("/");
       } catch (err) {
         console.log(err);
-        const countries = await checkVisited();
+        const countries = await checkVisited(req.user.id);
         res.render("index.ejs", {
           countries: countries,
           total: countries.length,
